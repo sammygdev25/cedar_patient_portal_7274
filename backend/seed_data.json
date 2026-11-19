@@ -1,0 +1,1110 @@
+[
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "username": "patient",
+      "password": "",
+      "email": "patient@example.com",
+      "first_name": "Jordan",
+      "last_name": "Ellis",
+      "role": "patient",
+      "phone": "555-0142",
+      "date_of_birth": "1984-06-12",
+      "email_verified": true,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "username": "doctor",
+      "password": "",
+      "email": "doctor@example.com",
+      "first_name": "Priya",
+      "last_name": "Raman",
+      "role": "doctor",
+      "phone": "555-0111",
+      "date_of_birth": "1979-03-22",
+      "email_verified": true,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+      "username": "mwhitfield",
+      "password": "",
+      "email": "marcus.whitfield@cedarhollowhealth.org",
+      "first_name": "Marcus",
+      "last_name": "Whitfield",
+      "role": "doctor",
+      "phone": "555-0112",
+      "date_of_birth": "1975-11-05",
+      "email_verified": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+      "username": "ekowalski",
+      "password": "",
+      "email": "elena.kowalski@cedarhollowhealth.org",
+      "first_name": "Elena",
+      "last_name": "Kowalski",
+      "role": "doctor",
+      "phone": "555-0113",
+      "date_of_birth": "1981-08-17",
+      "email_verified": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+      "username": "sokafor",
+      "password": "",
+      "email": "samuel.okafor@cedarhollowhealth.org",
+      "first_name": "Samuel",
+      "last_name": "Okafor",
+      "role": "doctor",
+      "phone": "555-0114",
+      "date_of_birth": "1972-01-30",
+      "email_verified": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 6,
+    "fields": {
+      "username": "hbrooks",
+      "password": "",
+      "email": "hannah.brooks@cedarhollowhealth.org",
+      "first_name": "Hannah",
+      "last_name": "Brooks",
+      "role": "doctor",
+      "phone": "555-0115",
+      "date_of_birth": "1985-09-09",
+      "email_verified": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 7,
+    "fields": {
+      "username": "receptionist",
+      "password": "",
+      "email": "receptionist@example.com",
+      "first_name": "Tina",
+      "last_name": "Nguyen",
+      "role": "receptionist",
+      "phone": "555-0100",
+      "date_of_birth": "1990-04-14",
+      "email_verified": true,
+      "is_active": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 8,
+    "fields": {
+      "username": "mdelgado",
+      "password": "",
+      "email": "maria.delgado@example.com",
+      "first_name": "Maria",
+      "last_name": "Delgado",
+      "role": "patient",
+      "phone": "555-0178",
+      "date_of_birth": "1992-12-03",
+      "email_verified": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 1,
+    "fields": {
+      "name": "General Checkup",
+      "slug": "general-checkup",
+      "description": "Annual physical exam and preventive health review.",
+      "duration_minutes": 30,
+      "icon": "stethoscope",
+      "display_order": 1,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 2,
+    "fields": {
+      "name": "Pediatric Care",
+      "slug": "pediatric-care",
+      "description": "Well-child visits, growth checks and sick visits.",
+      "duration_minutes": 30,
+      "icon": "baby",
+      "display_order": 2,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 3,
+    "fields": {
+      "name": "Women's Health",
+      "slug": "womens-health",
+      "description": "Gynecology exams, screenings and family planning.",
+      "duration_minutes": 45,
+      "icon": "heart",
+      "display_order": 3,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 4,
+    "fields": {
+      "name": "Lab Work and Blood Draw",
+      "slug": "lab-work-blood-draw",
+      "description": "On-site blood draws and routine lab panels.",
+      "duration_minutes": 15,
+      "icon": "flask",
+      "display_order": 4,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 5,
+    "fields": {
+      "name": "Vaccinations",
+      "slug": "vaccinations",
+      "description": "Flu shots, Tdap, shingles and travel immunizations.",
+      "duration_minutes": 15,
+      "icon": "syringe",
+      "display_order": 5,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "full_name": "Dr. Priya Raman",
+      "specialty": "Family Medicine",
+      "bio": "Treats patients of all ages with a focus on preventive care.",
+      "photo": "/img/doctor_profiles/doctorprofile-1.jpg",
+      "accepts_new_patients": true,
+      "consultation_minutes": 30,
+      "display_order": 1,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "full_name": "Dr. Marcus Whitfield",
+      "specialty": "Internal Medicine",
+      "bio": "Manages chronic conditions such as diabetes and asthma.",
+      "photo": "/img/doctor_profiles/doctorprofile-2.jpg",
+      "accepts_new_patients": true,
+      "consultation_minutes": 30,
+      "display_order": 2,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "full_name": "Dr. Elena Kowalski",
+      "specialty": "Obstetrics and Gynecology",
+      "bio": "Provides prenatal care and women's wellness exams.",
+      "photo": "/img/doctor_profiles/doctorprofile-3.jpg",
+      "accepts_new_patients": false,
+      "consultation_minutes": 45,
+      "display_order": 3,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "full_name": "Dr. Samuel Okafor",
+      "specialty": "Cardiology",
+      "bio": "Specializes in hypertension and cholesterol management.",
+      "photo": "/img/doctor_profiles/doctorprofile-4.jpg",
+      "accepts_new_patients": true,
+      "consultation_minutes": 40,
+      "display_order": 4,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "full_name": "Dr. Hannah Brooks",
+      "specialty": "Dermatology",
+      "bio": "Treats eczema, acne and skin cancer screenings.",
+      "photo": "/img/doctor_profiles/doctorprofile-5.jpg",
+      "accepts_new_patients": true,
+      "consultation_minutes": 20,
+      "display_order": 5,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 1,
+    "fields": {
+      "day_of_week": 0,
+      "opens_at": "08:00:00",
+      "closes_at": "17:00:00",
+      "is_closed": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 2,
+    "fields": {
+      "day_of_week": 1,
+      "opens_at": "08:00:00",
+      "closes_at": "17:00:00",
+      "is_closed": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 3,
+    "fields": {
+      "day_of_week": 2,
+      "opens_at": "08:00:00",
+      "closes_at": "19:00:00",
+      "is_closed": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 4,
+    "fields": {
+      "day_of_week": 5,
+      "opens_at": "09:00:00",
+      "closes_at": "13:00:00",
+      "is_closed": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 5,
+    "fields": {
+      "day_of_week": 6,
+      "opens_at": null,
+      "closes_at": null,
+      "is_closed": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 1,
+    "fields": {
+      "name": "Carla Mendez",
+      "phone": "555-0190",
+      "message": "Are you accepting new patients with Aetna insurance?",
+      "is_handled": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 2,
+    "fields": {
+      "name": "Robert Haines",
+      "phone": "555-0191",
+      "message": "What are your Saturday hours for flu shots?",
+      "is_handled": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 3,
+    "fields": {
+      "name": "Aisha Patel",
+      "phone": "",
+      "message": "I need to transfer my medical records to your clinic.",
+      "is_handled": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 4,
+    "fields": {
+      "name": "Tom Brennan",
+      "phone": "555-0193",
+      "message": "Is parking available behind the building?",
+      "is_handled": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.contactmessage",
+    "pk": 5,
+    "fields": {
+      "name": "Linda Ortiz",
+      "phone": "555-0194",
+      "message": "Can I get a copy of my vaccination record online?",
+      "is_handled": false,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "doctor": 2,
+      "service": 1,
+      "start_time": "2025-02-10T09:00:00Z",
+      "end_time": "2025-02-10T09:30:00Z",
+      "status": "completed",
+      "reason": "Blood pressure review and annual physical",
+      "checked_in_at": "2025-02-10T08:52:00Z",
+      "booked_by": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 2,
+    "fields": {
+      "patient": 1,
+      "doctor": 3,
+      "service": 1,
+      "start_time": "2025-03-04T14:00:00Z",
+      "end_time": "2025-03-04T14:30:00Z",
+      "status": "completed",
+      "reason": "Sinus pressure and cough for ten days",
+      "checked_in_at": "2025-03-04T13:55:00Z",
+      "booked_by": 7,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 3,
+    "fields": {
+      "patient": 8,
+      "doctor": 4,
+      "service": 3,
+      "start_time": "2025-03-12T10:00:00Z",
+      "end_time": "2025-03-12T10:45:00Z",
+      "status": "completed",
+      "reason": "Annual well-woman exam",
+      "checked_in_at": "2025-03-12T09:50:00Z",
+      "booked_by": 8,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 4,
+    "fields": {
+      "patient": 1,
+      "doctor": 5,
+      "service": 4,
+      "start_time": "2025-04-08T11:00:00Z",
+      "end_time": "2025-04-08T11:40:00Z",
+      "status": "completed",
+      "reason": "High cholesterol follow-up after lipid panel",
+      "checked_in_at": "2025-04-08T10:58:00Z",
+      "booked_by": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 5,
+    "fields": {
+      "patient": 8,
+      "doctor": 6,
+      "service": 1,
+      "start_time": "2025-04-22T15:00:00Z",
+      "end_time": "2025-04-22T15:20:00Z",
+      "status": "completed",
+      "reason": "Itchy rash on forearms",
+      "checked_in_at": "2025-04-22T14:49:00Z",
+      "booked_by": 7,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 6,
+    "fields": {
+      "patient": 1,
+      "doctor": 2,
+      "service": 5,
+      "start_time": "2026-09-15T10:00:00Z",
+      "end_time": "2026-09-15T10:15:00Z",
+      "status": "scheduled",
+      "reason": "Seasonal flu shot",
+      "checked_in_at": null,
+      "booked_by": 7,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 7,
+    "fields": {
+      "patient": 1,
+      "doctor": 5,
+      "service": 1,
+      "start_time": "2026-09-22T14:00:00Z",
+      "end_time": "2026-09-22T14:40:00Z",
+      "status": "scheduled",
+      "reason": "Cholesterol medication follow-up",
+      "checked_in_at": null,
+      "booked_by": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 1,
+    "fields": {
+      "appointment": 1,
+      "patient": 1,
+      "doctor": 2,
+      "chief_complaint": "Elevated blood pressure at home readings",
+      "diagnosis": "Stage 1 hypertension",
+      "notes": "BP 142/91. Started lisinopril 10 mg daily. Discussed low-sodium diet.",
+      "follow_up_instructions": "Log BP daily and return in 8 weeks.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 2,
+    "fields": {
+      "appointment": 2,
+      "patient": 1,
+      "doctor": 3,
+      "chief_complaint": "Sinus pressure and productive cough",
+      "diagnosis": "Acute bacterial sinusitis",
+      "notes": "Facial tenderness, temp 100.4F. Prescribed amoxicillin and nasal spray.",
+      "follow_up_instructions": "Call if no improvement in 5 days.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 3,
+    "fields": {
+      "appointment": 3,
+      "patient": 8,
+      "doctor": 4,
+      "chief_complaint": "Routine annual exam",
+      "diagnosis": "Normal well-woman exam",
+      "notes": "Pap smear collected. No concerns. Counseled on vitamin intake.",
+      "follow_up_instructions": "Results in 7 days. Return in 12 months.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 4,
+    "fields": {
+      "appointment": 4,
+      "patient": 1,
+      "doctor": 5,
+      "chief_complaint": "LDL cholesterol 168 mg/dL",
+      "diagnosis": "Hyperlipidemia",
+      "notes": "Started atorvastatin 20 mg nightly. Reviewed heart-healthy diet.",
+      "follow_up_instructions": "Repeat lipid panel in 12 weeks.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 5,
+    "fields": {
+      "appointment": 5,
+      "patient": 8,
+      "doctor": 6,
+      "chief_complaint": "Itchy red rash on both forearms",
+      "diagnosis": "Contact dermatitis",
+      "notes": "Likely reaction to new detergent. Prescribed 1% hydrocortisone cream.",
+      "follow_up_instructions": "Switch detergent. Return if rash spreads.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 1,
+    "fields": {
+      "name": "Amoxicillin 500 mg Capsules",
+      "slug": "amoxicillin-500mg-capsules",
+      "description": "Antibiotic for bacterial infections. Bottle of 21 capsules.",
+      "category": "Antibiotics",
+      "price": "14.50",
+      "stock_quantity": 120,
+      "image": "/img/products/amoxicillin-500-mg-capsules.jpg",
+      "requires_prescription": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 2,
+    "fields": {
+      "name": "Lisinopril 10 mg Tablets",
+      "slug": "lisinopril-10mg-tablets",
+      "description": "ACE inhibitor for high blood pressure. 30 tablets.",
+      "category": "Cardiovascular",
+      "price": "9.75",
+      "stock_quantity": 200,
+      "image": "/img/products/lisinopril-10-mg-tablets.jpg",
+      "requires_prescription": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 3,
+    "fields": {
+      "name": "Ibuprofen 200 mg Tablets",
+      "slug": "ibuprofen-200mg-tablets",
+      "description": "Pain and fever relief. 100 coated tablets.",
+      "category": "Pain Relief",
+      "price": "7.99",
+      "stock_quantity": 350,
+      "image": "/img/products/ibuprofen-200-mg-tablets.jpg",
+      "requires_prescription": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 4,
+    "fields": {
+      "name": "Cetirizine 10 mg Allergy Tablets",
+      "slug": "cetirizine-10mg-allergy",
+      "description": "24-hour allergy relief. 45 tablets.",
+      "category": "Allergy",
+      "price": "12.49",
+      "stock_quantity": 180,
+      "image": "/img/products/cetirizine-10-mg-allergy-tablets.jpg",
+      "requires_prescription": false,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.product",
+    "pk": 5,
+    "fields": {
+      "name": "Atorvastatin 20 mg Tablets",
+      "slug": "atorvastatin-20mg-tablets",
+      "description": "Statin for lowering cholesterol. 30 tablets.",
+      "category": "Cardiovascular",
+      "price": "18.20",
+      "stock_quantity": 90,
+      "image": "/img/products/atorvastatin-20-mg-tablets.jpg",
+      "requires_prescription": true,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "doctor": 2,
+      "appointment": 1,
+      "product": 2,
+      "medicine_name": "Lisinopril",
+      "dosage": "10 mg",
+      "instructions": "Take one tablet by mouth every morning.",
+      "notes": "Monitor blood pressure daily.",
+      "refills_allowed": 5,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 2,
+    "fields": {
+      "patient": 1,
+      "doctor": 3,
+      "appointment": 2,
+      "product": 1,
+      "medicine_name": "Amoxicillin",
+      "dosage": "500 mg",
+      "instructions": "Take one capsule three times daily for 7 days.",
+      "notes": "Finish the full course.",
+      "refills_allowed": 0,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 3,
+    "fields": {
+      "patient": 1,
+      "doctor": 5,
+      "appointment": 4,
+      "product": 5,
+      "medicine_name": "Atorvastatin",
+      "dosage": "20 mg",
+      "instructions": "Take one tablet nightly with water.",
+      "notes": "Avoid grapefruit juice.",
+      "refills_allowed": 3,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 4,
+    "fields": {
+      "patient": 8,
+      "doctor": 6,
+      "appointment": 5,
+      "product": null,
+      "medicine_name": "Hydrocortisone Cream 1%",
+      "dosage": "Thin layer",
+      "instructions": "Apply to affected skin twice daily for 7 days.",
+      "notes": "Do not use on face.",
+      "refills_allowed": 1,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 5,
+    "fields": {
+      "patient": 1,
+      "doctor": 3,
+      "appointment": 2,
+      "product": null,
+      "medicine_name": "Fluticasone Nasal Spray",
+      "dosage": "50 mcg",
+      "instructions": "Two sprays per nostril once daily.",
+      "notes": "Use for up to 14 days.",
+      "refills_allowed": 0,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.medicaldocument",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "title": "Blue Cross Insurance Card",
+      "document_type": "insurance",
+      "file": "https://picsum.photos/seed/insurance-card-1/400/400",
+      "content_type": "image/jpeg",
+      "size_bytes": 184320,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.medicaldocument",
+    "pk": 2,
+    "fields": {
+      "patient": 1,
+      "title": "Lipid Panel Results April 2025",
+      "document_type": "lab_result",
+      "file": "https://picsum.photos/seed/lipid-panel-2/400/400",
+      "content_type": "application/pdf",
+      "size_bytes": 96512,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.medicaldocument",
+    "pk": 3,
+    "fields": {
+      "patient": 1,
+      "title": "Cardiology Referral Letter",
+      "document_type": "other",
+      "file": "https://picsum.photos/seed/referral-letter-3/400/400",
+      "content_type": "application/pdf",
+      "size_bytes": 52480,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.medicaldocument",
+    "pk": 4,
+    "fields": {
+      "patient": 8,
+      "title": "Aetna Member Card",
+      "document_type": "insurance",
+      "file": "https://picsum.photos/seed/aetna-card-4/400/400",
+      "content_type": "image/jpeg",
+      "size_bytes": 201728,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.medicaldocument",
+    "pk": 5,
+    "fields": {
+      "patient": 8,
+      "title": "Complete Blood Count March 2025",
+      "document_type": "lab_result",
+      "file": "https://picsum.photos/seed/blood-count-5/400/400",
+      "content_type": "application/pdf",
+      "size_bytes": 88064,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "appointment": 1,
+      "created_by": 7,
+      "description": "Annual physical exam - Dr. Raman",
+      "total_amount": "45.00",
+      "status": "paid",
+      "due_date": "2025-03-10",
+      "paid_at": "2025-02-12T16:20:00Z",
+      "stripe_session_id": "cs_test_a1B2c3D4e5F6g7H8",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "appointment": 2,
+      "created_by": 7,
+      "description": "Sick visit - sinusitis exam",
+      "total_amount": "120.00",
+      "status": "paid",
+      "due_date": "2025-04-03",
+      "paid_at": "2025-03-06T10:05:00Z",
+      "stripe_session_id": "cs_test_i9J0k1L2m3N4o5P6",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 3,
+    "fields": {
+      "user": 8,
+      "appointment": 3,
+      "created_by": 7,
+      "description": "Well-woman exam and Pap smear",
+      "total_amount": "95.00",
+      "status": "pending",
+      "due_date": "2025-05-12",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "appointment": 4,
+      "created_by": 7,
+      "description": "Cardiology consult and lipid panel",
+      "total_amount": "180.00",
+      "status": "pending",
+      "due_date": "2025-05-08",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.invoice",
+    "pk": 5,
+    "fields": {
+      "user": 8,
+      "appointment": 5,
+      "created_by": 7,
+      "description": "Dermatology visit - contact dermatitis",
+      "total_amount": "110.00",
+      "status": "void",
+      "due_date": "2025-05-22",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "prescription": 1,
+      "order_type": "prescription",
+      "fulfillment_method": "delivery",
+      "status": "delivered",
+      "subtotal": "19.50",
+      "delivery_fee": "4.00",
+      "total_amount": "23.50",
+      "delivery_address": "418 Maple Ridge Dr, Cedar Hollow, OR 97301",
+      "phone": "555-0142",
+      "notes": "Leave with front desk if out.",
+      "approved_by": 7,
+      "approved_at": "2025-02-11T09:30:00Z",
+      "paid_at": "2025-02-11T09:10:00Z",
+      "stripe_session_id": "cs_test_q7R8s9T0u1V2w3X4",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "prescription": null,
+      "order_type": "otc",
+      "fulfillment_method": "pickup",
+      "status": "received",
+      "subtotal": "7.99",
+      "delivery_fee": "0.00",
+      "total_amount": "7.99",
+      "delivery_address": "",
+      "phone": "555-0142",
+      "notes": "",
+      "approved_by": null,
+      "approved_at": null,
+      "paid_at": "2025-05-02T13:45:00Z",
+      "stripe_session_id": "cs_test_y5Z6a7B8c9D0e1F2",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "prescription": 2,
+      "order_type": "prescription",
+      "fulfillment_method": "pickup",
+      "status": "pending_payment",
+      "subtotal": "14.50",
+      "delivery_fee": "0.00",
+      "total_amount": "14.50",
+      "delivery_address": "",
+      "phone": "555-0142",
+      "notes": "Pickup after 5 pm.",
+      "approved_by": 7,
+      "approved_at": "2025-03-04T15:00:00Z",
+      "paid_at": null,
+      "stripe_session_id": null,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 4,
+    "fields": {
+      "user": 8,
+      "prescription": null,
+      "order_type": "otc",
+      "fulfillment_method": "pickup",
+      "status": "packed",
+      "subtotal": "24.98",
+      "delivery_fee": "0.00",
+      "total_amount": "24.98",
+      "delivery_address": "",
+      "phone": "555-0178",
+      "notes": "",
+      "approved_by": 7,
+      "approved_at": "2025-04-25T11:15:00Z",
+      "paid_at": "2025-04-25T11:00:00Z",
+      "stripe_session_id": "cs_test_g3H4i5J6k7L8m9N0",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "prescription": 3,
+      "order_type": "prescription",
+      "fulfillment_method": "delivery",
+      "status": "out_for_delivery",
+      "subtotal": "18.20",
+      "delivery_fee": "4.00",
+      "total_amount": "22.20",
+      "delivery_address": "418 Maple Ridge Dr, Cedar Hollow, OR 97301",
+      "phone": "555-0142",
+      "notes": "Ring doorbell on arrival.",
+      "approved_by": 7,
+      "approved_at": "2025-04-09T10:00:00Z",
+      "paid_at": "2025-04-09T09:40:00Z",
+      "stripe_session_id": "cs_test_o1P2q3R4s5T6u7V8",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "product": 2,
+      "medicine_name": "Lisinopril 10 mg Tablets",
+      "quantity": 2,
+      "unit_price": "9.75",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 2,
+    "fields": {
+      "order": 2,
+      "product": 3,
+      "medicine_name": "Ibuprofen 200 mg Tablets",
+      "quantity": 1,
+      "unit_price": "7.99",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 3,
+    "fields": {
+      "order": 3,
+      "product": 1,
+      "medicine_name": "Amoxicillin 500 mg Capsules",
+      "quantity": 1,
+      "unit_price": "14.50",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 4,
+    "fields": {
+      "order": 4,
+      "product": 4,
+      "medicine_name": "Cetirizine 10 mg Allergy Tablets",
+      "quantity": 2,
+      "unit_price": "12.49",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 5,
+    "fields": {
+      "order": 5,
+      "product": 5,
+      "medicine_name": "Atorvastatin 20 mg Tablets",
+      "quantity": 1,
+      "unit_price": "18.20",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]
